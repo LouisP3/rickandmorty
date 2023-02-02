@@ -1,0 +1,4 @@
+.characterscontainer{
+    display: flex;
+    flex-wrap: wrap;
+}

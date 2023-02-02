@@ -1,0 +1,15 @@
+.headercontainer{
+    height: 40px;
+    background-color: purple;
+    color: white;
+    padding: 0 20px;
+}
+.headerlinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.headerlinks a{
+    color: white;
+}
