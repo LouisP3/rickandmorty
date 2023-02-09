@@ -3,13 +3,24 @@
     background-color: purple;
     color: white;
     padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .headerlinks{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100%;
+    width: 20%;
 }
 .headerlinks a{
     color: white;
+}
+.header-dark{
+    background-color: black;
+}
+
+.message{
+    display: flex;
 }

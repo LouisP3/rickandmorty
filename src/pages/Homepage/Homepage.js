@@ -31,7 +31,7 @@ function Homepage() {
         <h1>Main Characters</h1>
         <div className='characterscontainer'>
         {
-            characters.map(item=><CharacterCard character={item}/>)
+            characters.map(item=><CharacterCard key={item.id} character={item}/>)
         }
       {/*{
             characters.map(item=><p>{item.name}</p>
